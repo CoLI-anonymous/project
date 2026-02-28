@@ -38,16 +38,70 @@
   </div>
 </section>
 
-<!-- Open-source Resources -->
-<section class="section is-light">
+<!-- Paper abstract -->
+<section class="section hero is-light">
   <div class="container is-max-desktop">
-    <h2 class="title is-3 has-text-centered">Open-source Resources</h2>
-    <div class="content has-text-centered">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            Continuum robots offer strong potential for manipulation tasks due to their high degrees of freedom, compliant structures, and operational safety. However, their adoption in both research and practical applications has been hindered by reproducibility issues arising from complex fabrication and assembly processes, challenging kinematic modeling, and a lack of intuitive control interfaces. To address these challenges, we present a novel open-source continuum robot design. The platform features a simplified fabrication pipeline enabled by multi-material 3D printing, allowing the arm to be fabricated as a monolithic compliant structure with minimal assembly. Control is achieved through an isomorphic teleoperation interface that establishes a direct actuator-level mapping, eliminating the need for explicit kinematic modeling and providing a singularity-free mapping. Building on this hardware design, the platform further supports imitation-learning-based autonomous control. The proposed system is evaluated through hardware characterization and a set of manipulation tasks. Experimental results demonstrate that the platform provides a reproducible, learning-ready continuum robot system, accelerating algorithmic development and systematic benchmarking for the continuum robotics community.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Open-source Resources -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Open Source</h2>
+    <div class="content has-text-justified">
+
+      <h4>BOM</h4>
+
+      <p><strong>3D Printing Materials</strong></p>
+      <ul>
+        <li>Bambu Lab H2D printer (recommended, or other dual-extrusion 3D printer)</li>
+        <li>PLA filament (1 kg)</li>
+        <li>TPU 95A filament (1 kg)</li>
+      </ul>
+
+      <p>CAD files and 3D printing configuration files will be released upon paper acceptance.</p>
+
+      <hr>
+
+      <p><strong>Follower Robot Components</strong></p>
+      <ul>
+        <li>Flexible robot body (3D printed)</li>
+        <li>End-effector (3D printed)</li>
+        <li>Base (3D printed)</li>
+        <li>9 spools (3D printed)</li>
+        <li>9 servo motors</li>
+        <li>1.5 mm diameter Kevlar fiber tendon</li>
+        <li>Screws</li>
+      </ul>
+
+      <p><strong>Leader Robot Components</strong></p>
+      <ul>
+        <li>Flexible robot body (3D printed)</li>
+        <li>Base (3D printed)</li>
+        <li>9 spools (3D printed)</li>
+        <li>9 servo motors</li>
+        <li>1.5 mm diameter Kevlar fiber tendon</li>
+        <li>Screws</li>
+      </ul>
+
+      <hr>
+
       <p>
-        Hardware design files, multi-material printing configurations,
-        teleoperation interface, and learning pipelines will be released 
-        upon publication.
+        Assembly instructions, usage guidelines, and software will be released upon paper acceptance.
       </p>
+
     </div>
   </div>
 </section>
@@ -134,5 +188,25 @@
   </div>
 </section>
 
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
 </body>
 </html>
